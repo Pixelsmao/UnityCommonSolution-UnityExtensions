@@ -1,0 +1,2 @@
+# UnityCommonSolution-UnityExtensions
+ 这是一个为Unity开发者提供的功能扩展库，包含大量实用的扩展方法和工具类，旨在简化日常开发工作流程。代码经过模块化组织，可方便地集成到现有项目中。
