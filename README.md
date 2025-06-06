@@ -15,8 +15,8 @@
 
 ### 2. 功能库 (Extension Libraries)
 提供特定领域的实用工具库：
-- `ColorLibrary` - 颜色处理相关功能
-- `RegexLibrary` - 正则表达式工具
+- `ColorLibrary` - 颜色库
+- `Regexs` - 正则表达式集合
 
 ### 3. 特殊功能 (Extensions)
 - `EventTimer` - 带标签参数的事件计时器系统
