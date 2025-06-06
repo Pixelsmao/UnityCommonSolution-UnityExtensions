@@ -15,7 +15,7 @@
 
 ### 2. 功能库 (Extension Libraries)
 提供特定领域的实用工具库：
-- `ColorLibrary` - 颜色库
+- `Colors` - 颜色库
 - `Regexs` - 正则表达式集合
 
 ### 3. 特殊功能 (Extensions)
@@ -26,4 +26,4 @@
 2. 或直接导入`UnityExtensions.asmdef`到您的项目
 
 ## 适用平台
-兼容Unity 2019.4 LTS及以上版本
+兼容Unity 2021.3 LTS及以上版本
