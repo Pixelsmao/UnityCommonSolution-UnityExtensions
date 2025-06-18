@@ -1,6 +1,37 @@
-# Unity Extensions Repository
+# UnityCommonSolution -  UnityExtensions
+
+![GitHub](https://img.shields.io/badge/Unity-2021.3%2B-blue)
+![GitHub](https://img.shields.io/badge/license-MIT-green)
+![GitHub](https://img.shields.io/badge/Platform-Windows-red)
 
 这是一个为Unity开发者提供的功能扩展库，包含大量实用的扩展方法和工具类，旨在简化日常开发工作流程。代码经过模块化组织，可方便地集成到现有项目中。
+
+## 安装
+
+1. **通过克隆仓库安装**
+
+   将本仓库克隆到您的 Unity 项目的 `Assets` 目录下：
+
+   ```bash
+   git clone https://github.com/Pixelsmao/UnityCommonSolution-UnityExtensions.git
+   ```
+
+2. **使用UPM进行安装：**
+
+   在 Unity 编辑器中，点击顶部菜单栏,打开 Package Manager 窗口.
+
+   ```
+   Window > Package Manager
+   ```
+
+   在 Package Manager 窗口的左上角，点击 **+** 按钮，然后选择 **Add package from git URL...**。
+   在弹出的输入框中，粘贴本仓库的 Git URL：
+
+   ```
+   https://github.com/Pixelsmao/UnityCommonSolution-UnityExtensions.git
+   ```
+
+   然后点击 **Add**。
 
 ## 主要功能模块
 
