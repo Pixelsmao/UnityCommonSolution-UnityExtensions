@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 namespace Pixelsmao.UnityCommonSolution.Extensions
 {
@@ -515,6 +516,26 @@ namespace Pixelsmao.UnityCommonSolution.Extensions
         public static string AddSpacesBetweenEachCharacter(this string self, int spacing = 1) =>
             string.IsNullOrEmpty(self) ? self : string.Join(new string(' ', spacing), self.ToCharArray());
 
+
+        /// <summary>
+        /// 在字符串前方添加当前时间戳
+        /// </summary>
+        public static string AddTimestamp(this string self)
+        {
+            return $"【{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}】{self}";
+        }
+
+        /// <summary>
+        /// 在字符串前方添加当前时间戳
+        /// </summary>
+        /// <param name="self">字符串</param>
+        /// <param name="format">时间戳格式化格式</param>
+        /// <returns></returns>
+        public static string AddTimestamp(this string self, string format)
+        {
+            return $"【{DateTime.Now.ToString(format)}】{self}";
+        }
+
         #endregion
 
         #region Text Operation
@@ -679,7 +700,7 @@ namespace Pixelsmao.UnityCommonSolution.Extensions
         }
 
         #endregion
-        
+
         private static string MatchRegex(string sourceString, string pattern)
         {
             var catchCharacters = new StringBuilder();
