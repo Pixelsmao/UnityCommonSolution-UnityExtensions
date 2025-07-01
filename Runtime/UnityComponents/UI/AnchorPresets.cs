@@ -1,4 +1,4 @@
-namespace MFramework.Extensions.UnityComponent
+namespace Pixelsmao.UnityCommonSolution.Extensions
 {
     public enum AnchorPresets
     {

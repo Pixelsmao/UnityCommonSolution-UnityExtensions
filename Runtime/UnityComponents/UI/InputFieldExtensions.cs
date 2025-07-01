@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace MFramework.Extensions.UnityComponent
+namespace Pixelsmao.UnityCommonSolution.Extensions
 {
     public static class InputFieldExtensions
     {

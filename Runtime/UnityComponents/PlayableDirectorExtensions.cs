@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Playables;
 
-namespace MFramework.Extensions.UnityComponent
+namespace Pixelsmao.UnityCommonSolution.Extensions
 {
     public static class PlayableDirectorExtensions
     {

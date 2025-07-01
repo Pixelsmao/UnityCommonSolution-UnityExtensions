@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace MFramework.Extensions.UnityComponent
+namespace Pixelsmao.UnityCommonSolution.Extensions
 {
     public static class TransformExtensions
     {

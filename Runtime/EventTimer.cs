@@ -2,7 +2,7 @@ using System;
 using System.Timers;
 using UnityEngine;
 
-namespace MFramework.Extensions
+namespace Pixelsmao.UnityCommonSolution.Extensions
 {
     public class EventTimer
     {
