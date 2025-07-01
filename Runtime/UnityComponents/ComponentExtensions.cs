@@ -39,9 +39,9 @@ namespace Pixelsmao.UnityCommonSolution.Extensions
             return self;
         }
 
-        public static T GetOrAddComponent<T>(this GameObject self) where T : Component {
+        public static T GetOrAddComponent<T>(this Component self) where T : Component {
             T retT = self.GetComponent<T>();
-            return retT ?? self.AddComponent<T>();
+            return retT ? retT : self.gameObject.AddComponent<T>();
         }
     }
 }
